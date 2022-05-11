@@ -1,0 +1,363 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Jonas Tran Nohau Solutions AB Flex license: MDK Professional 5.35 (Flex) (mdk_pro) Operation stops: 27 Jan 2022
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.35 (Flex)  Version: 5.35.0.2
+Toolchain Path:  C:\Keil_v5.35\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      ULP2CM3.DLL V2.213.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Keil_workspace\MCBSTM32F400\OfficialDemo\MDK\Boards\Keil\MCBSTM32F400\emWin\GUIDemo\GUIDemo.uvprojx
+Project File Date:  11/22/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5.35\ARM\ARMCC\Bin'
+Build target 'Debug'
+Note: source file 'C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Sample\Application\GUIDemo\GUIDEMO.c' - object file renamed from '.\Debug\GUIDEMO.o' to '.\Debug\guidemo_1.o'.
+assembling irq_armv7m.s...
+compiling Joystick_STMPE811.c...
+compiling rtx_evr.c...
+compiling rtx_delay.c...
+compiling rtx_evflags.c...
+compiling rtx_kernel.c...
+compiling rtx_lib.c...
+compiling main.c...
+compiling Touch_STMPE811.c...
+compiling LCD_X.c...
+compiling GUIDemo.c...
+compiling rtx_memory.c...
+compiling rtx_mempool.c...
+compiling rtx_msgqueue.c...
+compiling RTX_Config.c...
+compiling rtx_mutex.c...
+compiling rtx_semaphore.c...
+compiling os_systick.c...
+compiling rtx_system.c...
+compiling rtx_timer.c...
+compiling rtx_thread.c...
+compiling EventRecorder.c...
+compiling I2C_STM32F4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_i2c.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_hal_pwr.c...
+compiling GUIDEMO.c...
+compiling GUIDEMO_Automotive.c...
+compiling GUIDEMO_BarGraph.c...
+compiling GUIDEMO_Bitmap.c...
+compiling GUIDEMO_ColorBar.c...
+compiling system_stm32f4xx.c...
+compiling GUIDEMO_Conf.c...
+compiling GUIDEMO_Cursor.c...
+compiling GUIDEMO_Fading.c...
+compiling GUIDEMO_Graph.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling GUIDEMO_Intro.c...
+compiling GUIDEMO_Listview.c...
+compiling GUIDEMO_RadialMenu.c...
+compiling stm32f4xx_ll_fsmc.c...
+compiling GUIDEMO_Speed.c...
+compiling GUIDEMO_Resource.c...
+compiling stm32f4xx_hal_sram.c...
+compiling GUIDEMO_Skinning.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling GUIDEMO_Start.c...
+compiling GUI_X_Joystick.c...
+compiling GUIDEMO_Treeview.c...
+compiling GUIDEMO_TransparentDialog.c...
+compiling GUIDEMO_Speedometer.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling GUI_X_RTE.c...
+compiling GUI_X_Touch.c...
+compiling GUIConf.c...
+compiling GUIDEMO_WashingMachine.c...
+compiling LCDConf_MCBQVGA_LG.c...
+linking...
+Program Size: Code=253248 RO-data=509740 RW-data=53760 ZI-data=1086780  
+".\Debug\GUIDemo.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: I2C Version: 2.4.0
+   * Component: RTOS2 Version: 2.1.3
+   * Component: CORE Version: 5.5.0
+   * Component: Keil RTX5 Variant: Source Version: 5.5.3
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.13.0.pack
+                Keil.MDK-Middleware.7.13.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Joystick Version: 1.0.0
+   * Component: Touchscreen Version: 1.0.1
+   * Component: emWin LCD Version: 1.1.0
+   * Component: CORE Version: 6.16.3
+   * Component: Automotive Version: 6.16.3
+   * Component: BarGraph Version: 6.16.3
+   * Component: Bitmap Version: 6.16.3
+   * Component: ColorBar Version: 6.16.3
+   * Component: Cursor Version: 6.16.3
+   * Component: Fading Version: 6.16.3
+   * Component: Framework Version: 6.16.3
+   * Component: Graph Version: 6.16.3
+   * Component: ListView Version: 6.16.3
+   * Component: RadialMenu Version: 6.16.3
+   * Component: Skinning Version: 6.16.3
+   * Component: Speed Version: 6.16.3
+   * Component: Speedometer Version: 6.16.3
+   * Component: TransparentDialog Version: 6.16.3
+   * Component: Treeview Version: 6.16.3
+   * Component: WashingMachine Version: 6.16.3
+   * Component: MCBQVGA_LG Variant: 16-bit IF Version: 6.16.3
+   * Component: Joystick Version: 6.16.3
+   * Component: Touchscreen Version: 6.16.3
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Joystick Version: 2.0.0
+   * Component: Touchscreen Version: 2.0.0
+   * Component: emWin LCD Variant: 16-bit IF Version: 2.0.0
+   * Component: I2C Version: 2.10
+   * Component: Classic Version: 1.7.9
+   * Component: Common Version: 1.7.9
+   * Component: Cortex Version: 1.7.9
+   * Component: DMA Version: 1.7.9
+   * Component: GPIO Version: 1.7.9
+   * Component: I2C Version: 1.7.9
+   * Component: PWR Version: 1.7.9
+   * Component: RCC Version: 1.7.9
+   * Component: SRAM Version: 1.7.9
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\CMSIS
+  .\RTE\Compiler
+  .\RTE\Device\STM32F407IGHx
+  .\RTE\_Debug
+  C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Driver\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\RTX\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board
+  C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\STM32F4xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Joystick:1.0.0 (API)
+      Include file:  Board\Board_Joystick.h
+
+   * Component: ::Board Support:Touchscreen:1.0.1 (API)
+      Include file:  Board\Board_Touch.h
+
+   * Component: ::Board Support:emWin LCD:1.1.0 (API)
+      Include file:  emWin\Include\LCD_X.h
+
+   * Component: ::CMSIS Driver:I2C:2.4.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_I2C.h
+
+   * Component: ::CMSIS:RTOS2:2.1.3 (API)
+      Include file:  CMSIS\RTOS2\Include\cmsis_os2.h
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+
+   * Component: ARM::CMSIS:RTOS2:Keil RTX5:Source:5.5.3
+      Source file:   CMSIS\RTOS2\RTX\Template\svc_user.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_mutex.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_thread.c
+      Source file:   CMSIS\RTOS2\RTX\Template\main.c
+      Include file:  CMSIS\RTOS2\RTX\Include\rtx_os.h
+      Source file:   CMSIS\RTOS2\RTX\Template\MsgQueue.c
+      Include file:  CMSIS\RTOS2\RTX\Config\RTX_Config.h
+      Source file:   CMSIS\RTOS2\RTX\Template\Semaphore.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Thread.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_timer.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_evflags.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_delay.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_semaphore.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Events.c
+      Source file:   CMSIS\RTOS2\RTX\Template\MemPool.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_memory.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_msgqueue.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_system.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Timer.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_mempool.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_evr.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Mutex.c
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_kernel.c
+      Source file:   CMSIS\RTOS2\RTX\Config\RTX_Config.c
+      Source file:   CMSIS\RTOS2\RTX\Source\ARM\irq_armv7m.s
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_lib.c
+      Source file:   CMSIS\RTOS2\Source\os_systick.c
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Include file:  Include\EventRecorder.h
+      Source file:   Source\EventRecorder.c
+      Include file:  Config\EventRecorderConf.h
+
+   * Component: Keil.MCBSTM32F400::Board Support:Joystick:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\Joystick_STMPE811.c
+
+   * Component: Keil.MCBSTM32F400::Board Support:Touchscreen:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\Touch_STMPE811.c
+
+   * Component: Keil.MCBSTM32F400::Board Support:emWin LCD:16-bit IF:2.0.0
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\LCD_X.c
+
+   * Component: Keil::CMSIS Driver:I2C:2.10
+      Source file:   CMSIS\Driver\I2C_STM32F4xx.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.7.9
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Source file:   MDK\Templates_LL\Src\main.c
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\main.c
+      Include file:  MDK\Templates_LL\Inc\main.h
+      Include file:  MDK\Templates\Inc\main.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.7.9
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:I2C:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:STM32Cube HAL:SRAM:1.7.9
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+
+   * Component: Segger.MDK-Pro::Graphics:CORE:6.16.3
+      Source file:   emWin\Sample\Template\RTOS2\GUI_TemplateThread.c
+      Source file:   emWin\Sample\Config\GUIConf.c
+      Library file:  emWin\Lib\ARM\GUI_CM4F_L.lib
+      Include file:  emWin\Include\GUI.h
+      Source file:   emWin\Sample\Template\RTOS2\GUI_MultiThread.c
+      Source file:   emWin\Sample\Template\RTOS2\GUI_SingleThread.c
+      Source file:   emWin\Sample\GUI_X\GUI_X_RTE.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Automotive:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Automotive.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:BarGraph:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_BarGraph.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Bitmap:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Bitmap.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:ColorBar:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_ColorBar.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Cursor:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Cursor.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Fading:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Fading.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Framework:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Resource.c
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO.c
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Start.c
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Intro.c
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Conf.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Graph:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Graph.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:ListView:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Listview.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:RadialMenu:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_RadialMenu.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Skinning:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Skinning.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Speed:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Speed.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Speedometer:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Speedometer.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:TransparentDialog:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_TransparentDialog.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:Treeview:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_Treeview.c
+
+   * Component: Segger.MDK-Pro::Graphics:Demo:WashingMachine:6.16.3
+      Source file:   emWin\Sample\Application\GUIDemo\GUIDEMO_WashingMachine.c
+
+   * Component: Segger.MDK-Pro::Graphics:Display:MCBQVGA_LG:16-bit IF:6.16.3
+      Source file:   emWin\Sample\LCDConf\GUIDRV_FlexColor\Keil\LCDConf_MCBQVGA_LG.c
+
+   * Component: Segger.MDK-Pro::Graphics:Input Device:Joystick:6.16.3
+      Source file:   emWin\Sample\GUI_X\GUI_X_Joystick.c
+
+   * Component: Segger.MDK-Pro::Graphics:Input Device:Touchscreen:6.16.3
+      Source file:   emWin\Sample\GUI_X\GUI_X_Touch.c
+Build Time Elapsed:  00:00:54
+</pre>
+</body>
+</html>

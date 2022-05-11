@@ -1,0 +1,11 @@
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Sample\GUI_X\GUI_X_Joystick.c
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\GUI.h
+.\debug\gui_x_joystick.o: C:\Keil_v5.35\ARM\ARMCC\Bin\..\include\stddef.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\GUI_ConfDefaults.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\GUIConf.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\GUI_Type.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\LCD.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\Global.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\emWin\Include\GUI_Version.h
+.\debug\gui_x_joystick.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board\Board_Joystick.h
+.\debug\gui_x_joystick.o: C:\Keil_v5.35\ARM\ARMCC\Bin\..\include\stdint.h

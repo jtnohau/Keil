@@ -1,0 +1,10 @@
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\MDK\Boards\Keil\MCBSTM32F400\Common\Joystick_STMPE811.c
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\MDK\Boards\Keil\MCBSTM32F400\Common\STMPE811.h
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Driver\Include\Driver_I2C.h
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Driver\Include\Driver_Common.h
+.\debug\joystick_stmpe811.o: C:\Keil_v5.35\ARM\ARMCC\Bin\..\include\stddef.h
+.\debug\joystick_stmpe811.o: C:\Keil_v5.35\ARM\ARMCC\Bin\..\include\stdint.h
+.\debug\joystick_stmpe811.o: C:\Keil_v5.35\ARM\ARMCC\Bin\..\include\stdbool.h
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.13.0\Board\Board_Joystick.h
+.\debug\joystick_stmpe811.o: .\RTE\_Debug\RTE_Components.h
+.\debug\joystick_stmpe811.o: C:\Users\jotr01\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\RTOS2\Include\cmsis_os2.h
