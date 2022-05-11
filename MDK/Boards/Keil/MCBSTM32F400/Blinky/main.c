@@ -100,7 +100,7 @@ int main(void)
      */
   HAL_Init();
 	
-	printf("test \n");
+	printf("test2 \n");
 
   /* Configure the system clock to 168 MHz */
   SystemClock_Config();
